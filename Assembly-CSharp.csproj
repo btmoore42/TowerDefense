@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\MySceneChanger.cs" />
     <Compile Include="Assets\Scripts\PlaceMonster.cs" />
     <Compile Include="Assets\Scripts\PlayGame.cs" />
+    <Compile Include="Assets\Scripts\PlayerInfo.cs" />
     <Compile Include="Assets\Scripts\ShootEnemies.cs" />
     <Compile Include="Assets\Scripts\SpawnEnemy.cs" />
     <Compile Include="Assets\Scripts\Tutorial.cs" />
@@ -658,6 +659,10 @@
     <ProjectReference Include="PlayFab.csproj">
       <Project>{0A4C39E8-244F-88CD-0285-3B2093C09B42}</Project>
       <Name>PlayFab</Name>
+    </ProjectReference>
+    <ProjectReference Include="PlayFabEditorExtensions.csproj">
+      <Project>{7D2BFD69-3E0E-CE18-61D2-EECFB3C88B99}</Project>
+      <Name>PlayFabEditorExtensions</Name>
     </ProjectReference>
     <ProjectReference Include="PlayFabSDKEditor.csproj">
       <Project>{A3EFE6F3-C345-29F4-44B3-712D4969A78F}</Project>
